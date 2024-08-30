@@ -12,10 +12,7 @@ const invalidId = ()=>{
 
 const followersPage = async ()=>{
     try{
-        let response = await fetch(`https://api.github.com/users/${username}`,{
-            auth:"samfr7",
-            Password:"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"
-        })
+        let response = await fetch(`https://api.github.com/users/${username}`)
         if(response.ok){
             let data = await response.json()
             validID(data)
@@ -120,10 +117,7 @@ const validID = (profile)=>{
 
 let mainFunc = async (username)=>{
     try{
-        let response = await fetch(`https://api.github.com/users/${username}`,{
-            auth:"samfr7",
-            Password:"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"
-        })
+        let response = await fetch(`https://api.github.com/users/${username}`)
         if(response.ok){
             let data = await response.json()
             validID(data)
