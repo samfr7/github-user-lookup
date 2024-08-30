@@ -1,0 +1,57 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+.doNotDisplay{
+    display:none !important;
+}
+
+body{
+    height: 100%;
+}
+
+
+  /* button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  } */
+
+
+.followers{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.followers-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+.followers-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.followersToGit{
+    height: 50%;
+}
+  
